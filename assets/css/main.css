@@ -3287,3 +3287,48 @@ input, select, textarea {
 			}
 
 	}
+
+
+	.education-list+p {
+		font-style: italic;
+	}
+
+	.education-list {
+		display: flex;
+		justify-content: space-between;
+		font-weight: bold;
+	}
+
+	@media (max-width: 420px) {
+		.education-list {
+		  flex-direction: column;
+		  }
+		  .skills-container{
+		  flex-direction: column;
+		  }
+		  ul li{
+			  text-align: left;
+		  }
+		  .project-pic{
+			  width: 100vw;
+		  }
+	  }
+
+
+	
+
+
+	/* @media (max-width: 420px) {
+		.education-list {
+		  flex-direction: column;
+		  }
+		  .skills-container{
+		  flex-direction: column;
+		  }
+		  ul li{
+			  text-align: left;
+		  }
+		  .project-pic{
+			  width: 100vw;
+		  }
+	  } */
